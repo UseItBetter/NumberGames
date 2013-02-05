@@ -20,11 +20,9 @@ function start(director, images) {
 function createCanvas() {
     var director;
 
-    if ( window.innerWidth>window.innerHeight ) {
-        director= new CAAT.Director().initialize(700,500).setClear( false );
-    } else {
-        director= new CAAT.Director().initialize(500,750).setClear(false);
-    }
+    
+        director= new CAAT.Director().initialize(640,960).setClear(false);
+    
 
     return director;
 }
